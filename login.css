@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.second-background{
+    background-image: url("Movie Images/signImage.png");
+    width: 100%;
+    height: 1100px;
+    background-position: center;
+}
+.first-div{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 26rem;
+    opacity: 0.9;
+    width: 35%;
+    height: 600px;
+     background-color: black;
+     color: white ;
+}
+.sign{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3%;
+    font-size: 20px;
+    padding-left: 2rem;
+}
+
+.form{
+    display: block;
+   justify-content: center;
+   align-items: center;
+   margin-left: 9%;
+   opacity: 0.9;
+    background-color: black;
+    color: white;
+
+}
+.email{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+.password{
+    width: 350px;
+    height: 40px;
+    color: white;
+    background-color: rgb(44, 43, 43);
+}
+.submit{
+    width: 350px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+.Remember{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+.learn{
+    color: blue;
+}
+
+.Facebook{
+    padding-top: 4rem;
+    padding-left: 6rem;
+}
+.New{
+    padding-top: 1rem;
+    padding-left: 6rem;
+}
+.page{
+    padding-top: 1rem;
+    padding-left: 6rem;
+    width: 80%;
+}
+
+.last-div{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    height: 380px;
+    display: flex;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: hidden;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.link-1>li{
+    list-style-type: none;
+    padding: 0.5rem;
+    
+}
+.Jobs{
+    padding-top: 2rem;
+}
+.Jobs>li{
+    list-style-type: none;
+    padding: 0.5rem;
+}
+.Eng{
+    width: 50%;
+    height: 33px;
+    border: 0.9px solid wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+/* THE RESPONSIVENESS AT 600PX */
+
+@media (max-width: 800px) {
+    .second-background{
+        display: block;
+        overflow: hidden;
+        position: relative;
+        justify-content: center;
+        /* width: 100%; */
+    }
+    .first-div{
+        display: block;
+        justify-content: center;
+        width: 80%;
+        position: relative;
+        right: 500px;
+        align-items: center;
+
+    }
+    .sign{
+        display: block;
+        justify-content: center;
+        margin-left: 4rem;
+        
+    }
+
+    .form{
+        display: block;
+        justify-content: center;
+        position: relative;
+        justify-content: center;
+        left: 50px;
+        width: 70%;
+        /* padding-left: 2rem; */
+    }
+    .email{
+        width: 90%;
+        display: block;
+        justify-content: center;
+        margin-left: 2.5rem;
+    }
+    .password{
+        width: 90%;
+        display: block;
+        justify-content: center;
+        margin-left: 2.5rem;
+
+    }
+
+    .submit{
+        width: 90%;
+        display: block;
+        margin-left: 2.5rem;
+        justify-content: center;
+    }
+    .repo-form{
+        display: block;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .Remember{
+        display: flex;
+        
+    }
+
+    .last-div{
+        height: 34%;
+        overflow: hidden;
+    }
+
+    .Eng{
+        width: 5rem;
+    }
+     
+    .Jobs{
+        margin-top: 2rem;
+    }
+}
